@@ -1,0 +1,50 @@
+/*standard klasser*/
+body{
+    margin:0;
+}
+
+.flex{
+    display: flex;
+}
+.horizontal{
+    flex-direction: row;
+}
+.center{
+    justify-content:center;
+    align-items: center;
+}
+.space-around{
+    justify-content: space-around;
+    align-items: center;
+}
+.fixed{
+    position: fixed;
+}
+.width{
+    width: 100%;
+}
+/*klasser för header*/
+
+.max-height{
+    height: 5rem;
+}
+header{
+    background-color: lightgray;
+}
+.onlyMobile{
+    visibility: hidden;
+}
+/*media queirys*/
+
+@media (max-width:48rem){
+.visible{
+    visibility: visible;
+}
+
+.noneVisible{
+    visibility: hidden;
+}
+.padding{
+    padding: 1rem;
+}
+}
